@@ -1,9 +1,16 @@
-function App() {
+import Header from "../components/Header";
+import Router from "../routes";
+import Footer from "../components/Footer";
+
+function App({children}) {
   return (
     <>
-        <div className="container">
-            Ini halaman Home Page
-        </div>
+        <Header />
+        <main>
+            <Router/>
+            {children}
+        </main>
+        <Footer />
     </>
   );
 }
