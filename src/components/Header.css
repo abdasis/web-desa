@@ -1,9 +1,24 @@
 #semua-item{
-    margin-left: 600px;
+    margin-left: 300px;
 }
-
+#desa{
+    position: relative;
+    top: -10px;
+}
 .dropdown-item:hover{
     color: white;
     background-color: rgb(154, 181, 221);
+}
+
+#logo-ri{
+    margin-left: 80px;
+}
+
+#rdr{
+    position: relative;
+    left: -38px;
+    top: 5px;
+    color: gray;
+    font-size: 13px;
 }
 

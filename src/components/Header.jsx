@@ -6,9 +6,13 @@ export default function Header() {
             <div className='semua-data'>
                 <nav className="navbar navbar-expand-lg navbar-light bg-light">
                     <div className="container-fluid">
-                        <img src="gowes.jpg" alt="" />
-                        <a className="navbar-brand" href="#">
+                        <img id="logo-ri" src="/static/img/ri.png" width='60px'height='60px' alt="" />
+                        <a id='desa' className="navbar-brand" href="#">
                             Desa
+                        </a>
+
+                        <a id='rdr' className="navbar-brand" href="#">
+                            Kabupaten Bangkalan
                         </a>
                         <button
                             className="navbar-toggler"
