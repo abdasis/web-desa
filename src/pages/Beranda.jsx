@@ -1,9 +1,12 @@
-import App from "../layouts/App";
-
+import './Beranda.css'
+import logoNpp from '../assets/img/gowes.jpg'
 export default function Beranda(){
     return(
-        <>
-            <h1>Ini halaman Berandagi</h1>
-        </>
+        <div>
+
+        <h1>halaman Beranda</h1>
+            <img src={logoNpp} className="img-fluid" alt="..." />
+
+        </div>
     );
 }

@@ -1,0 +1,9 @@
+#semua-item{
+    margin-left: 600px;
+}
+
+.dropdown-item:hover{
+    color: white;
+    background-color: rgb(154, 181, 221);
+}
+
