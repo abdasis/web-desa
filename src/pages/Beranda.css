@@ -32,6 +32,11 @@ body{
     border: none;
 }
 
+.tombol-desa:hover{
+    background-color: rgb(75, 75, 245);
+    transition:  0.3s;
+}
+
 .tombol-desa{
     border: none;
     color: white;

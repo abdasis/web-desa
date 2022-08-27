@@ -1,7 +1,8 @@
 import './Beranda.css'
+import App from'../layouts/App'
 export default function Beranda() {
     return (
-        <app>
+        <App>
             <div className='semua-beranda'>
                 <div
                     id="carouselExampleControls"
@@ -16,7 +17,7 @@ export default function Beranda() {
                             <img src="/static/img/suramadu.jpeg" id='suramadu' className="d-block w-100" alt="..." />
                         </div>
                         <div className="carousel-item">
-                            <img src="/static/img/ri.png" id='suramadu' className="d-block w-100" alt="..." />
+                            <img src="/static/img/alam.jpg" id='suramadu' className="d-block w-100" alt="..." />
                         </div>
                     </div>
                     <button
@@ -44,8 +45,8 @@ export default function Beranda() {
             </div>
 
             {/* card title */}
-            <div className='beranda'>
-                <div className="card mb-3" id='card' style={{ maxWidth: 540 }}>
+            <div className='beranda container'>
+                <div className="card mb-3" id='card'>
                     <div className="row g-0">
                         <div className="col-md-4">
                             <img src="/static/img/ri.png" className="img-fluid rounded-start" alt="..." />
@@ -57,14 +58,16 @@ export default function Beranda() {
                                     Website resmi desa, kec tanah merah kab bangkalan jawa timur.media komunikasi dan transparansi pemerintah untuk seluruh masyarakat desa rongdurin
                                 </p>
                                 <p className="card-text">
-                                    <a href=""><button className='tombol-desa'>Profil desa  </button></a>
+                                    <a href="/"><button className='tombol-desa'>Profil desa  </button></a>
                                 </p>
                             </div>
                         </div>
                     </div>
-                </div>
-
+                </div> 
             </div>
-        </app>
+
+            {/*  */}
+         
+        </App>
     );
 }
