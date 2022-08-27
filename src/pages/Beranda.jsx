@@ -1,9 +1,11 @@
 import App from "../layouts/App";
 
+import LogoNpp from "../assets/img/gowes.jpg"
+
 export default function Beranda(){
     return(
-        <>
-            <h1>Ini halaman Berandagi</h1>
-        </>
+        <App>
+            <img src={LogoNpp} alt=""/>
+        </App>
     );
 }

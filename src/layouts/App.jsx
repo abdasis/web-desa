@@ -1,5 +1,4 @@
 import Header from "../components/Header";
-import Router from "../routes";
 import Footer from "../components/Footer";
 
 function App({children}) {
@@ -7,7 +6,6 @@ function App({children}) {
     <>
         <Header />
         <main>
-            <Router/>
             {children}
         </main>
         <Footer />
