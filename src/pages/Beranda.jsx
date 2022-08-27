@@ -1,5 +1,5 @@
 import './Beranda.css'
-import logoNpp from '../assets/img/gowes.jpg'
+import logoNpp from '../assets/img/ gowes.jpg'
 export default function Beranda(){
     return(
         <div>
