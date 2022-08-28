@@ -1,17 +1,23 @@
 body{
-    height: 200vh;
+    height: 300vh;
+}
+
+.semua-beranda{
+    width: 1350px;
+    position: relative;
+    left: 40px;
 }
 
 #suramadu{
     width: 70%;
-    height: 400px;
+    height: 500px;
     box-shadow: 1px 1px 1px 3px solid gray;
     margin-left: 10px;
 }
 
 #nama-foto{
     position: absolute;
-    top:240px;
+    top:200px;
     color: white;
     left: 450px;
     font-size: 30px;
@@ -27,7 +33,7 @@ body{
 #card{
     position: relative;
     top: 50px;
-    left: 300px;
+    left: 230px;
     width: 800px;
     border: none;
 }
@@ -48,4 +54,237 @@ body{
 
 .card-text{
     width: 600px;
+}
+
+.bagian-statis{
+    margin-left: 560px;
+    margin-top: 200px;
+}
+
+.statis-desa{
+    position: relative;
+    left: 80px;
+}
+
+.bagian-statis p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
+    position: relative;
+    top: -5px;
+}
+
+
+#menu-foto{
+    padding: 10px;
+    padding-left: 90px;
+    height: 110px;
+}
+
+.menu-statis-desa{
+    position: relative;
+    left: 250px;
+    background-color: rgb(255, 255, 255);
+    width: 900px;
+    box-shadow:  1px 1px 3px 0px rgb(214, 211, 211) ;
+}
+
+#menu-foto:hover{
+    opacity: 0.6;
+    transition: 0.1s;
+}
+
+.agenda{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin-left: 200px;
+    margin-top: 70px;
+}
+
+.semua-agenda{
+    color: blue;
+    text-decoration:underline;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.semua-agenda:hover{
+    color: red;
+    text-decoration:underline;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.agenda-menu{
+    margin-left: 200px;
+    width: 400px;
+}
+
+.judul-agenda{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+
+#desa-menu{
+    height: 90px;
+}
+
+.card-berita{
+    margin-left: 200px;
+    width: 400px;
+}
+
+#berita-foto{
+    height: 200px;
+    width: 400px;
+}
+
+#card2{
+    margin-left: -120px;
+}
+
+#card3{
+    margin-left: -230px;
+}
+
+
+.semua-card-berita{
+    display: flex;
+
+    width:1400px;
+    padding-left: 0px;
+}
+
+@media screen and (max-width:576px) {
+    #foto-slide{
+        width:460px;
+        height: 250px;
+        margin-left: -30px;
+        margin-top: 20px;
+    }
+
+    #card{
+        position: relative;
+        top: 20px;
+        left: -40px;
+    }
+
+    .card-text{
+        width: 300px;
+        position: relative;
+        top: -170px;
+        left: 135px;
+    }
+
+    .card-title{
+        position: relative;
+        top: -20px;
+        left: -10px;
+    }
+
+    .bagian-statis{
+        position: relative;
+        left: -460px;
+        top: -280px;
+    }
+
+    .statis-desa{
+        width: 300px;
+    }
+
+    .bagian-statis p{
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 17px;
+        position: relative;
+        top: -5px;
+        width: 300px;
+    }
+    
+    .menu-statis-desa{
+        width: 600px;
+        margin-left: 105px;
+        background: none;
+        box-shadow:none;
+    }
+    #menu-foto{
+        position: relative;
+        top: -300px;
+        left: -350px;
+    }
+
+    .agenda{
+        position: relative;
+        left: -125px;
+        top: -300px;
+    }
+
+    .agenda-menu{
+        position: relative;
+        top: -300px;
+        left: -150px;
+        width: 400px;
+        height: 200px;
+    }
+
+    #desa-menu{
+        height: 100px;
+        position: relative;
+        left: 50px;
+        top: 20px;
+        width: 300px;
+    }
+
+    .judul-agenda{
+        display: block;
+    }
+
+    small{
+        position: relative;
+        top: 150px;
+    }
+
+    #agenda-judul{
+        position: relative;
+        top: -120px;
+        left: 120px;
+    }
+
+    .card-berita{
+        position: relative;
+        top: -300px;
+        left: -130px;
+        width: 200px;
+    }
+
+    .semua-card-berita{
+        display: block;
+        margin-left: 30px;
+    }
+
+    #berita-foto{
+        height: 150px;
+        position: relative;
+        top: 25px;
+    }
+
+    #card2{
+        margin-left: -1px;
+    }
+
+    #card3{
+        margin-left: -1px;
+    }
+
+    #card-text{
+        position: relative;
+        top: 15px;
+        left: 10px;
+    }
+
+    #judul-berita{
+        position: relative;
+        top: -165px;
+        left: 70px;
+    }
 }

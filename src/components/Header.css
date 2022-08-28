@@ -1,20 +1,22 @@
-#semua-item{
+#semua-item {
     margin-left: 300px;
 }
-#desa{
+
+#desa {
     position: relative;
     top: -10px;
 }
-.dropdown-item:hover{
+
+.dropdown-item:hover {
     color: white;
     background-color: rgb(154, 181, 221);
 }
 
-#logo-ri{
+#logo-ri {
     margin-left: 80px;
 }
 
-#rdr{
+#rdr {
     position: relative;
     left: -38px;
     top: 5px;
@@ -22,3 +24,27 @@
     font-size: 13px;
 }
 
+@media screen and (max-width:576px) {
+    #desa {
+        position: relative;
+        left: -20px;
+    }
+
+    #rdr {
+        position: relative;
+        left: -95px;
+    }
+
+    .nav-item{
+        transition: 1s;
+    }
+
+    .dropdown-item:hover {
+        color: white;
+        background-color: rgb(154, 181, 221);
+    }
+
+    a:hover{
+        background-color: rgb(154, 181, 221);
+    }
+}
