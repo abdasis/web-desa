@@ -3,17 +3,18 @@ import './Header.css'
 export default function Header() {
     return (
         <>
-            <div className='semua-data'>
-                <nav className="navbar navbar-expand-lg navbar-light bg-light">
+            <div className='header'>
+                <nav className="navbar navbar-expand-lg navbar-light shadow-sm bg-white">
                     <div className="container-fluid">
-                        <img id="logo-ri" src="/static/img/ri.png" width='60px'height='60px' alt="" />
-                        <a id='desa' className="navbar-brand" href="#">
-                            Desa
-                        </a>
-
-                        <a id='rdr' className="navbar-brand" href="#">
-                            Kabupaten Bangkalan
-                        </a>
+                        <div className="navbar-brand">
+                            <img id="logo-ri" src="/static/img/ri.png" width='50px'height='50px' alt="" />
+                            <span id='desa'>
+                                Desa
+                            </span>
+                            <span id='rdr' className="navbar-brand">
+                                Kabupaten Bangkalan
+                            </span>
+                        </div>
                         <button
                             className="navbar-toggler"
                             type="button"
@@ -47,7 +48,7 @@ export default function Header() {
                                     >
                                         Profil
                                     </a>
-                                    <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <ul className="dropdown-menu shadow-sm border-light" aria-labelledby="navbarDropdown">
                                         <li>
                                             <a className="dropdown-item" href="#">
                                                 sejarah
@@ -155,7 +156,7 @@ export default function Header() {
                                     <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
                                         <li>
                                             <a className="dropdown-item" href="#">
-                                                Galery foto 
+                                                Galery foto
                                             </a>
                                         </li>
                                         <li>
@@ -200,13 +201,13 @@ export default function Header() {
                                         Lapak
                                     </a>
                                 </li>
-                               
+
                                 <li className="nav-item">
                                     <a className="nav-link" href="#">
                                         Covid
                                     </a>
                                 </li>
-                    
+
                             </ul>
                         </div>
                     </div>
