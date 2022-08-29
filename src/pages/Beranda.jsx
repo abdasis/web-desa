@@ -28,7 +28,7 @@ export default function Beranda() {
             {/* card title */}
             <div className="container">
                 <div className="row justify-content-center">
-                    <div className="col-md-12 mt-5">
+                    <div className="col-md-12 mb-3">
                         <div className="card shadow-none bg-transparent border-0 p-4">
                             <div className="box-content row justify-content-center align-items-center">
                                 <div className="img-box col-md-3 d-grid align-items-center">
