@@ -1,6 +1,6 @@
 import './Beranda.css'
 import App from '../layouts/App'
-import {RiBookmark2Fill, RiBriefcase2Fill, RiCalendar2Fill, RiCommunityLine, RiUser2Fill} from "react-icons/ri";
+import {RiBookmark2Fill, RiBriefcase2Fill, RiCommunityLine} from "react-icons/ri";
 import {FaBookMedical, FaMosque} from "react-icons/fa";
 import CardBerita from "../components/CardBerita";
 export default function Beranda() {
@@ -8,11 +8,13 @@ export default function Beranda() {
         <App>
             <div className="container py-4">
                 <div className="row align-items-center box-banner rounded-3">
-                    <div className="col-md-6 p-5">
+                    <div className="col-md-6 col-sm-12 p-md-5 p-sm-2">
                         <h1>Selamat Datang Di Desa Rongdurin</h1>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur cum, cumque dolore doloremque ducimus eaque esse explicabo ipsam maxime molestias necessitatibus nostrum nulla placeat qui quidem soluta vel veritatis voluptatum?</p>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi eos laudantium molestiae porro, quod rem veniam. Deserunt distinctio, eaque earum fuga impedit laboriosam laudantium, nulla porro quam quis ratione, voluptates?</p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto beatae error explicabo modi, perferendis ratione voluptates voluptatum? Alias magni ratione velit. Accusamus ad cumque dolorem quasi repellat, veniam vitae voluptate!
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto beatae error explicabo modi, perferendis ratione voluptates voluptatum? Alias magni ratione velit. Accusamus ad cumque dolorem quasi repellat, veniam vitae voluptate!
+
+                        </p>
                         <button className="btn btn-primary mt-3">
                             Selengkapnya
                         </button>
@@ -52,26 +54,26 @@ export default function Beranda() {
                 <h2 className='text-center'>Statistic Desa</h2>
                 <p className="text-center">berikut adalah statistic demografi desa kami</p>
 
-                <div className="statistic-box row mt-5">
-                    <div className="col-md-3">
+                <div className="statistic-box row gy-2 mt-5">
+                    <div className="col-md-3 ">
                         <div className="box-icon bg-red-lt rounded-3 text-white p-4">
                             <RiBriefcase2Fill className="icon-statistic"/>
                             <h1>Pekerjaan</h1>
                         </div>
                     </div>
-                    <div className="col-md-3">
+                    <div className="col-md-3 ">
                         <div className="box-icon bg-info-lt rounded-3 text-white p-4">
                             <RiCommunityLine className="icon-statistic"/>
                             <h1>Pendidikan</h1>
                         </div>
                     </div>
-                    <div className="col-md-3">
+                    <div className="col-md-3 ">
                         <div className="box-icon bg-warning-lt rounded-3 text-white p-4">
                             <FaMosque className="icon-statistic"/>
                             <h1>Agama</h1>
                         </div>
                     </div>
-                    <div className="col-md-3">
+                    <div className="col-md-3 ">
                         <div className="box-icon bg-success-lt rounded-3 text-white p-4">
                             <FaBookMedical className="icon-statistic"/>
                             <h1>Usia Penduduk</h1>
