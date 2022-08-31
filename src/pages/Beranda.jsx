@@ -84,7 +84,7 @@ export default function Beranda() {
 
             {/*  */}
 
-            {/* agenda */}
+            {/* berita */}
             <div className="my-5">
                 <div className="container berita-terbaru">
                     <h2 className="d-flex align-items-center gap-2 widget-title">

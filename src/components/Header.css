@@ -27,12 +27,17 @@
 @media screen and (max-width:576px) {
     #desa {
         position: relative;
-        left: -20px;
+        left: -40px;
+    }
+
+    #logo-ri{
+        position: relative;
+        left: -40px;
     }
 
     #rdr {
         position: relative;
-        left: -95px;
+        left: -78px;
     }
 
     .nav-item{

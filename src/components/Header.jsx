@@ -1,4 +1,5 @@
 import './Header.css'
+import { Link } from 'react-router-dom';
 
 export default function Header() {
     return (
@@ -28,23 +29,12 @@ export default function Header() {
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul className="navbar-nav ms-auto me-5 mb-2 mb-lg-0">
                             <li className="nav-item">
-                                <a className="nav-link active" aria-current="page" href="#">
-                                    Home
-                                </a>
+                                <Link to='/' className='nav-link' >Home</Link>
                             </li>
 
                             {/* profil */}
                             <li className="nav-item dropdown">
-                                <a
-                                    className="nav-link dropdown-toggle"
-                                    href="#"
-                                    id="navbarDropdown"
-                                    role="button"
-                                    data-bs-toggle="dropdown"
-                                    aria-expanded="false"
-                                >
-                                    Profil
-                                </a>
+                               <Link to='/profile' className='nav-link' >Profile</Link>
                                 <ul className="dropdown-menu shadow-sm border-light" aria-labelledby="navbarDropdown">
                                     <li>
                                         <a className="dropdown-item" href="#">
@@ -63,16 +53,7 @@ export default function Header() {
 
                             {/* informasi */}
                             <li className="nav-item dropdown">
-                                <a
-                                    className="nav-link dropdown-toggle"
-                                    href="#"
-                                    id="navbarDropdown"
-                                    role="button"
-                                    data-bs-toggle="dropdown"
-                                    aria-expanded="false"
-                                >
-                                    Informasi
-                                </a>
+                             <Link to='/informasi' >Informasi</Link>
                                 <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
                                     <li>
                                         <a className="dropdown-item" href="#">
