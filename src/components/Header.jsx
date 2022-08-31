@@ -26,8 +26,6 @@ export default function Header() {
                             <span className="navbar-toggler-icon" />
                         </button>
                         <div className="collapse navbar-collapse" id="navbarSupportedContent">
-
-
                             <ul className="navbar-nav me-auto mb-2 mb-lg-0" id='semua-item'>
                                 <li className="nav-item">
                                     <a className="nav-link active" aria-current="page" href="#">
@@ -61,7 +59,6 @@ export default function Header() {
                                     </ul>
                                 </li>
                                 {/*  */}
-
 
                                 {/* informasi */}
                                 <li className="nav-item dropdown">
@@ -155,7 +152,7 @@ export default function Header() {
                                     <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
                                         <li>
                                             <a className="dropdown-item" href="#">
-                                                Galery foto 
+                                                Galery foto
                                             </a>
                                         </li>
                                         <li>
@@ -200,13 +197,13 @@ export default function Header() {
                                         Lapak
                                     </a>
                                 </li>
-                               
+
                                 <li className="nav-item">
                                     <a className="nav-link" href="#">
                                         Covid
                                     </a>
                                 </li>
-                    
+
                             </ul>
                         </div>
                     </div>
